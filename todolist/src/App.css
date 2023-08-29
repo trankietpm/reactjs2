@@ -1,0 +1,102 @@
+
+
+.app {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+h1 {
+  color: #333;
+}
+
+.tasklist {
+  list-style: none;
+  padding: 0;
+}
+
+.tasklist li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.tasklist li span {
+  flex-grow: 1;
+}
+
+.tasklist li button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+.tasklist li button.edit-button {
+  background-color: #4caf50;
+}
+
+.tasklist li button.edit-button:hover {
+  background-color: #45a049;
+}
+
+.tasklist li button.cancel-button {
+  background-color: #ccc;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 5px;
+  transition: background-color 0.3s;
+}
+
+.tasklist li button.save-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 5px;
+  transition: background-color 0.3s;
+}
+
+.addtask {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.addtask input {
+  flex-grow: 1;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.addtask button.add-button {
+  background-color: #333; 
+  color: white;
+  border: none;
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  width: 50px;
+}
+
+.addtask button.add-button:hover {
+  background-color: #333; 
+}
+
+
